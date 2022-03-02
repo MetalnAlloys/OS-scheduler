@@ -7,6 +7,7 @@ from typing import List, Dict
 from openpyxl import load_workbook
 from tabulate import tabulate
 
+PG_NAME = "os-scheluder"
 
 class State(Enum):
     IDLE = 0
